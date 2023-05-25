@@ -5,6 +5,11 @@
   max-width: 40rem;
 }
 
+.input form {
+  display: flex;
+  flex-direction: column;
+}
+
 .input label {
   display: block;
   font-weight: bold;
@@ -24,3 +29,9 @@
   outline: none;
   border-color: #4f005f;
 }
+
+/* .input button {
+  width: 20%;
+  margin-top: 0.5rem;
+  padding: 10px;
+} */
